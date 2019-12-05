@@ -66,4 +66,4 @@ RUN chmod +x /usr/local/bin/codecov
 RUN sed -i 's/^# *\(en_US.UTF-8\)/\1/' /etc/locale.gen && locale-gen
 ENV LC_ALL en_US.UTF-8
 
-ADD bintray_cfg/ /opt/bintray_cfg/
+ADD bintray/ /opt/bintray/
